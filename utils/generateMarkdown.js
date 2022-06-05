@@ -17,13 +17,13 @@ const generateMarkdown = data => {
         
    
 ## Installation
-        ${data.installation}
+${data.installation}
 ## Usage
-        ${data.usage}
+${data.usage}
 ## Contribution
-        ${data.contribution}
+${data.contribution}
 ## Test
-        ${data.test}
+${data.test}
 ## License
 * This application is covered under ${data.license}.
         
