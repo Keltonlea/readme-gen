@@ -5,14 +5,7 @@ const fs = require('fs');
 const generatePage = require('./utils/generateMarkdown.js');
 
 
-const licenseMap = {
-    'None': 'None',
-    'Apache License 2.0': 'Apache-2.0',
-    'MIT License': 'MIT',
-    'Boost Software License 1.0': 'BSL-1.0',
-    'Eclipse Public License 2.0': 'EPL-2.0',
-    'Mozilla Public License 2.0': 'MPL-2.0',
-};
+
 
 
 // TODO: Create an array of questions for user input
@@ -33,7 +26,7 @@ const questions = () =>{
     },
     {
         type: "input",
-        name: "desc",
+        name: "description",
         message: "project description:",
         validate: async (input)  => {
             if (input) {
@@ -69,7 +62,7 @@ const questions = () =>{
     {
         type: 'list',
         message: 'Select License:',
-        choices: Object.keys(licenseMap),
+        choices: ['MIT', 'GNU', 'Apache'],
         name: 'license',
         validate: async (checkbox)  => {
             if (checkbox.length == 1) {
