@@ -55,9 +55,10 @@ const questions = () =>{
         message: "contribution guidelines:"
     },
     {
-        type: "input",
-        name: "tests",
-        message: "tests:"
+        type: 'input',
+        name: 'test', 
+        message: 'What command should be run to run tests?',
+        default: 'npm test'
     },
     {
         type: 'list',
@@ -76,7 +77,7 @@ const questions = () =>{
     },
     {
         type: "input", 
-        name: "username", 
+        name: "git", 
         message: "Github username:",
         
     }, 

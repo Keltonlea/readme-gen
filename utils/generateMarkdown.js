@@ -11,7 +11,7 @@ const generateMarkdown = data => {
  * [Installation](#Installation)
  * [Usage](#Usage)
  * [Contribution](#Contribution)
- * [Tests](#Test)
+ * [Tests](#Tests)
  * [License](#License)
  * [Contact](#Contact)
         

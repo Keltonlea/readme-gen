@@ -9,7 +9,7 @@
  * [Installation](#Installation)
  * [Usage](#Usage)
  * [Contribution](#Contribution)
- * [Tests](#Test)
+ * [Tests](#Tests)
  * [License](#License)
  * [Contact](#Contact)
         
@@ -19,12 +19,12 @@
 ## Usage
         Use inquirer from your command line to answer questions about your project.
 ## Contribution
-        contributors should read installation 
+        contibutors should read the installation instructions
 ## Test
-        undefined
+        npm test
 ## License
 * This application is covered under MIT.
         
 ## Contact
-* [Github](https://github.com/undefined)
+* [Github](https://github.com/keltonlea)
 * E-mail: kelton.leach@gmail.com
